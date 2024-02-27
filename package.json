@@ -4,14 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@keystatic/core": "^0.2.0",
     "@keystatic/next": "^2.0.0",
-    "dotenv": "^16.4.5",
     "lodash": "^4.17.21",
     "next": "14.0.1",
     "react": "^18",
