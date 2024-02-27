@@ -7,8 +7,8 @@ export async function generateMetadata() {
   const api = await getNextRamadan();
 
   return {
-    title: `Ramadan 2024 Countdown ${api.year}`,
-    description: `Ramadan 2024 Countdown ${api.year}`,
+    title: `Ramadan ${api.year} Countdown`,
+    description: `Ramadan ${api.year} Countdown`,
   };
 }
 
