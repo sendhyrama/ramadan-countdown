@@ -33,7 +33,7 @@ export default function Countdown(props: Props) {
   }
 
   return (
-    <div className="bg-white shadow-lg rounded-lg p-8">
+    <div className="bg-white bg-opacity-50 backdrop-blur-xl drop-shadow-lg shadow-lg rounded-2xl p-8">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
         <div>
           <p className="text-2xl font-semibold text-gray-800 ">Days</p>
@@ -68,7 +68,7 @@ export default function Countdown(props: Props) {
           month: "long",
           year: "numeric",
         })}{" "}
-        🌙✨
+        ✨
       </p>
     </div>
   );
