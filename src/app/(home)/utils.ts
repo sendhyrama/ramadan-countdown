@@ -3,7 +3,7 @@ import { sortBy } from "lodash";
 import { z } from "zod";
 
 export async function getNextRamadan() {
-  const resp = await fetch("https://ramadan.zakiego.com/api/history").then(
+  const resp = await fetch("https://ramadan.sendhyrama.dev/api/history").then(
     (r) => r.json(),
   );
 
