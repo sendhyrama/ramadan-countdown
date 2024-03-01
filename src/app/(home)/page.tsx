@@ -16,7 +16,7 @@ export default async function Page() {
   const api = await getNextRamadan();
 
   return (
-    <div className="relative flex flex-col items-center pt-20 md:pt-0 md:justify-center min-h-screen bg-gradient-to-r bg url px-4 md:px-0">
+    <div className="relative flex flex-col items-center pt-20 md:pt-0 md:justify-center min-h-screen bg-gradient-to-r bg-white px-4 md:px-0">
       <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center">
         Ramadan 2024 Countdown
       </h1>
